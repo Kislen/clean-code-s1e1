@@ -22,7 +22,7 @@ body {
   .intro { 
     text-align: center;
   }
-  
+
 }
 .main-wrapper {
   display: block;
@@ -38,14 +38,14 @@ body {
   display: flex;
 }
 .incomplete-tasks, .completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .mode, .title {
-  list-style:none;
+  list-style: none;
 }
 .check, .task, .button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -138,14 +138,14 @@ body {
 
 /* Edit Task */
 .mode .task {
-  display:none
+  display: none
 }
 
 .edit .task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit .label-task {
-  display:none;
+  display: none;
 }
