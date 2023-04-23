@@ -29,7 +29,8 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.label-task, .task {
+.label-task,
+.task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -37,14 +38,18 @@ body {
 .input-mode-wrapper {
   display: flex;
 }
-.incomplete-tasks, .completed-tasks {
+.incomplete-tasks, 
+.completed-tasks {
   margin: 0;
   padding: 0px;
 }
-.mode, .title {
+.mode, 
+.title {
   list-style: none;
 }
-.check, .task, .button{
+.check, 
+.task, 
+.button{
   outline: none;
 }
 .button {
@@ -105,7 +110,10 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.mode > .task, .mode > .check,.mode > .label-task,.mode > button {
+.mode > .task, 
+.mode > .check,
+.mode > .label-task,
+.mode > button {
   vertical-align: middle;
 }
 
