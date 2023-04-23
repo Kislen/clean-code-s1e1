@@ -18,8 +18,11 @@ body {
 }
 
 @media (max-width:768px) {
-.intro { text-align: center;
-}
+
+  .intro { 
+    text-align: center;
+  }
+  
 }
 .main-wrapper {
   display: block;
